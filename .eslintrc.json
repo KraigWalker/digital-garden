@@ -1,0 +1,35 @@
+***REMOVED***
+  "root": true,
+  "ignorePatterns": ["**/*"],
+  "plugins": ["@nrwl/nx"],
+  "overrides": [
+    ***REMOVED***
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": ***REMOVED***
+        "@nrwl/nx/enforce-module-boundaries": [
+          "error",
+          ***REMOVED***
+            "enforceBuildableLibDependency": true,
+            "allow": [],
+            "depConstraints": [
+              ***REMOVED***
+                "sourceTag": "*",
+                "onlyDependOnLibsWithTags": ["*"]
+        ***REMOVED***
+        ***REMOVED***
+    ***REMOVED***
+    ***REMOVED***
+***REMOVED***
+  ***REMOVED***
+    ***REMOVED***
+      "files": ["*.ts", "*.tsx"],
+      "extends": ["plugin:@nrwl/nx/typescript"],
+      "rules": ***REMOVED******REMOVED***
+  ***REMOVED***
+    ***REMOVED***
+      "files": ["*.js", "*.jsx"],
+      "extends": ["plugin:@nrwl/nx/javascript"],
+      "rules": ***REMOVED******REMOVED***
+***REMOVED***
+  ]
+***REMOVED***

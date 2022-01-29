@@ -1,0 +1,46 @@
+***REMOVED***
+***REMOVED***
+  "affected": ***REMOVED***
+***REMOVED***
+***REMOVED***
+  "cli": ***REMOVED***
+***REMOVED***
+***REMOVED***
+  "implicitDependencies": ***REMOVED***
+    "package.json": ***REMOVED***
+***REMOVED***
+***REMOVED***
+  ***REMOVED***
+***REMOVED***
+***REMOVED***
+  "tasksRunnerOptions": ***REMOVED***
+    "default": ***REMOVED***
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": ***REMOVED***
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+***REMOVED***
+***REMOVED***
+***REMOVED***
+  "targetDependencies": ***REMOVED***
+***REMOVED***
+      ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+  "generators": ***REMOVED***
+    "@nrwl/react": ***REMOVED***
+      "application": ***REMOVED***
+***REMOVED***
+***REMOVED***
+  ***REMOVED***
+    "@nrwl/next": ***REMOVED***
+      "application": ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***

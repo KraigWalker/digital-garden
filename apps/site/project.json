@@ -1,0 +1,54 @@
+***REMOVED***
+  "root": "apps/site",
+  "sourceRoot": "apps/site",
+  "projectType": "application",
+  "targets": ***REMOVED***
+    "build": ***REMOVED***
+      "executor": "@nrwl/next:build",
+      "outputs": ["***REMOVED***options.outputPath***REMOVED***"],
+      "defaultConfiguration": "production",
+      "options": ***REMOVED***
+        "root": "apps/site",
+        "outputPath": "dist/apps/site"
+    ***REMOVED***
+      "configurations": ***REMOVED***
+        "production": ***REMOVED******REMOVED***
+***REMOVED***
+  ***REMOVED***
+    "serve": ***REMOVED***
+      "executor": "@nrwl/next:server",
+      "options": ***REMOVED***
+        "buildTarget": "site:build",
+        "dev": true
+    ***REMOVED***
+      "configurations": ***REMOVED***
+        "production": ***REMOVED***
+          "buildTarget": "site:build:production",
+          "dev": false
+  ***REMOVED***
+***REMOVED***
+  ***REMOVED***
+    "export": ***REMOVED***
+      "executor": "@nrwl/next:export",
+      "options": ***REMOVED***
+        "buildTarget": "site:build:production"
+***REMOVED***
+  ***REMOVED***
+    "test": ***REMOVED***
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/site"],
+      "options": ***REMOVED***
+        "jestConfig": "apps/site/jest.config.js",
+        "passWithNoTests": true
+***REMOVED***
+  ***REMOVED***
+    "lint": ***REMOVED***
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["***REMOVED***options.outputFile***REMOVED***"],
+      "options": ***REMOVED***
+        "lintFilePatterns": ["apps/site/**/*.***REMOVED***ts,tsx,js,jsx***REMOVED***"]
+***REMOVED***
+***REMOVED***
+***REMOVED***
+  "tags": []
+***REMOVED***

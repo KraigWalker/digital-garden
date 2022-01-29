@@ -1,0 +1,12 @@
+***REMOVED***
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": ***REMOVED***
+    "outDir": "../dist/out-tsc/tools",
+    "rootDir": ".",
+    "module": "commonjs",
+    "target": "es5",
+    "types": ["node"],
+    "importHelpers": false
+***REMOVED***
+  "include": ["**/*.ts"]
+***REMOVED***

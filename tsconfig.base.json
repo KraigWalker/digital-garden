@@ -1,0 +1,20 @@
+***REMOVED***
+  "compileOnSave": false,
+  "compilerOptions": ***REMOVED***
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": ***REMOVED******REMOVED***
+***REMOVED***
+  "exclude": ["node_modules", "tmp"]
+***REMOVED***
