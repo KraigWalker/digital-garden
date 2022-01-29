@@ -1,54 +1,54 @@
-***REMOVED***
+{
   "root": "apps/site",
   "sourceRoot": "apps/site",
   "projectType": "application",
-  "targets": ***REMOVED***
-    "build": ***REMOVED***
+  "targets": {
+    "build": {
       "executor": "@nrwl/next:build",
-      "outputs": ["***REMOVED***options.outputPath***REMOVED***"],
+      "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
-      "options": ***REMOVED***
+      "options": {
         "root": "apps/site",
         "outputPath": "dist/apps/site"
-    ***REMOVED***
-      "configurations": ***REMOVED***
-        "production": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-    "serve": ***REMOVED***
+      },
+      "configurations": {
+        "production": {}
+      }
+    },
+    "serve": {
       "executor": "@nrwl/next:server",
-      "options": ***REMOVED***
+      "options": {
         "buildTarget": "site:build",
         "dev": true
-    ***REMOVED***
-      "configurations": ***REMOVED***
-        "production": ***REMOVED***
+      },
+      "configurations": {
+        "production": {
           "buildTarget": "site:build:production",
           "dev": false
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-    "export": ***REMOVED***
+        }
+      }
+    },
+    "export": {
       "executor": "@nrwl/next:export",
-      "options": ***REMOVED***
+      "options": {
         "buildTarget": "site:build:production"
-***REMOVED***
-  ***REMOVED***
-    "test": ***REMOVED***
+      }
+    },
+    "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/apps/site"],
-      "options": ***REMOVED***
+      "options": {
         "jestConfig": "apps/site/jest.config.js",
         "passWithNoTests": true
-***REMOVED***
-  ***REMOVED***
-    "lint": ***REMOVED***
+      }
+    },
+    "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["***REMOVED***options.outputFile***REMOVED***"],
-      "options": ***REMOVED***
-        "lintFilePatterns": ["apps/site/**/*.***REMOVED***ts,tsx,js,jsx***REMOVED***"]
-***REMOVED***
-***REMOVED***
-***REMOVED***
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/site/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  },
   "tags": []
-***REMOVED***
+}

@@ -1,4 +1,4 @@
-***REMOVED***
+{
   "extends": [
     "plugin:@nrwl/nx/react-typescript",
     "../../.eslintrc.json",
@@ -7,22 +7,22 @@
   ],
   "ignorePatterns": ["!**/*"],
   "overrides": [
-    ***REMOVED***
+    {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
-      "rules": ***REMOVED***
+      "rules": {
         "@next/next/no-html-link-for-pages": ["error", "apps/site/pages"]
-***REMOVED***
-  ***REMOVED***
-    ***REMOVED***
+      }
+    },
+    {
       "files": ["*.ts", "*.tsx"],
-      "rules": ***REMOVED******REMOVED***
-  ***REMOVED***
-    ***REMOVED***
+      "rules": {}
+    },
+    {
       "files": ["*.js", "*.jsx"],
-      "rules": ***REMOVED******REMOVED***
-***REMOVED***
+      "rules": {}
+    }
   ],
-  "env": ***REMOVED***
+  "env": {
     "jest": true
-  ***REMOVED***
-***REMOVED***
+  }
+}

@@ -1,4 +1,4 @@
-***REMOVED***
+{
   "fileServerFolder": ".",
   "fixturesFolder": "./src/fixtures",
   "integrationFolder": "./src/integration",
@@ -9,4 +9,4 @@
   "videosFolder": "../../dist/cypress/apps/site-e2e/videos",
   "screenshotsFolder": "../../dist/cypress/apps/site-e2e/screenshots",
   "chromeWebSecurity": false
-***REMOVED***
+}

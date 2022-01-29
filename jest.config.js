@@ -1,5 +1,5 @@
-const ***REMOVED*** getJestProjects ***REMOVED*** = require('@nrwl/jest');
+const { getJestProjects } = require('@nrwl/jest');
 
-module.exports = ***REMOVED***
+module.exports = {
   projects: getJestProjects(),
-***REMOVED***;
+};

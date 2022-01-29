@@ -1,10 +1,10 @@
-***REMOVED***
+{
   "extends": "../../tsconfig.base.json",
-  "compilerOptions": ***REMOVED***
+  "compilerOptions": {
     "sourceMap": false,
     "outDir": "../../dist/out-tsc",
     "allowJs": true,
     "types": ["cypress", "node"]
-***REMOVED***
+  },
   "include": ["src/**/*.ts", "src/**/*.js"]
-***REMOVED***
+}

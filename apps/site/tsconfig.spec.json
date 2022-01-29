@@ -1,11 +1,11 @@
-***REMOVED***
+{
   "extends": "./tsconfig.json",
-  "compilerOptions": ***REMOVED***
+  "compilerOptions": {
     "outDir": "../../dist/out-tsc",
     "module": "commonjs",
     "types": ["jest", "node"],
     "jsx": "react"
-***REMOVED***
+  },
   "include": [
     "**/*.test.ts",
     "**/*.spec.ts",
@@ -17,4 +17,4 @@
     "**/*.spec.jsx",
     "**/*.d.ts"
   ]
-***REMOVED***
+}

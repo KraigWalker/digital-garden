@@ -1,11 +1,11 @@
 import React from 'react';
-import ***REMOVED*** render ***REMOVED*** from '@testing-library/react';
+import { render } from '@testing-library/react';
 
 import Index from '../pages/index';
 
-describe('Index', () => ***REMOVED***
-  it('should render successfully', () => ***REMOVED***
-    const ***REMOVED*** baseElement ***REMOVED*** = render(<Index />);
+describe('Index', () => {
+  it('should render successfully', () => {
+    const { baseElement } = render(<Index />);
     expect(baseElement).toBeTruthy();
-  ***REMOVED***);
-***REMOVED***);
+  });
+});

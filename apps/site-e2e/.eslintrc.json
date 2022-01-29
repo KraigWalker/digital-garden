@@ -1,17 +1,17 @@
-***REMOVED***
+{
   "extends": ["plugin:cypress/recommended", "../../.eslintrc.json"],
   "ignorePatterns": ["!**/*"],
   "overrides": [
-    ***REMOVED***
+    {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
-      "rules": ***REMOVED******REMOVED***
-  ***REMOVED***
-    ***REMOVED***
+      "rules": {}
+    },
+    {
       "files": ["src/plugins/index.js"],
-      "rules": ***REMOVED***
+      "rules": {
         "@typescript-eslint/no-var-requires": "off",
         "no-undef": "off"
-***REMOVED***
-***REMOVED***
+      }
+    }
   ]
-***REMOVED***
+}

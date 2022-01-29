@@ -1,13 +1,13 @@
 import styles from './index.module.css';
 
-export function Index() ***REMOVED***
+export function Index() {
   /*
    * Replace the elements below with your own.
    *
    * Note: The corresponding styles are in the ./index.css file.
    */
   return (
-    <div className=***REMOVED***styles.page***REMOVED***>
+    <div className={styles.page}>
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
@@ -289,8 +289,8 @@ export function Index() ***REMOVED***
                   target="_blank"
                   rel="noreferrer"
                 >
-                  ***REMOVED***' '***REMOVED***
-                  What is Nx Cloud?***REMOVED***' '***REMOVED***
+                  {' '}
+                  What is Nx Cloud?{' '}
                 </a>
               </div>
               <a
@@ -410,6 +410,6 @@ export function Index() ***REMOVED***
       </div>
     </div>
   );
-***REMOVED***
+}
 
 export default Index;
