@@ -1,6 +1,6 @@
+# Kraig Walker’s Digital Garden
 
-
-# DigitalGarden
+[![CI](https://github.com/KraigWalker/digital-garden/actions/workflows/continuous-integration.yml/badge.svg?branch=main)](https://github.com/KraigWalker/digital-garden/actions/workflows/continuous-integration.yml)
 
 This project was generated using [Nx](https://nx.dev).
 
@@ -78,8 +78,6 @@ Run `nx graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
-
-
 
 ## ☁ Nx Cloud
 
