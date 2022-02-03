@@ -2,11 +2,28 @@
 
 [![CI](https://github.com/KraigWalker/digital-garden/actions/workflows/continuous-integration.yml/badge.svg?branch=main)](https://github.com/KraigWalker/digital-garden/actions/workflows/continuous-integration.yml)
 
+This is the digital garden of Kraig Walker. It is a collection of tools and resources that I use to build and maintain my digital garden.
+
+The garden is currently under construction.
+
+I've currently managed to:
+
+- Setup a Nx Monorepo with a Next.js app.
+- Setup boilerplate babel and Jest config.
+- Setting up a CI/CD pipeline for my site using GitHub Actions.
+
+Some things I'm working on:
+
+- Setting up a Storybook for my app to begin building UI components.
+- Setting up Cypress to do End-to-End testing.
+
+Some things I'm going to work on the future:
+
+- Creating a blog for my digital garden.
+- Creating an experimental content pre-delivery system using ServiceWorkers and Web Push.
+- Designing a more "coffee-table" style layout for "serious" articles.
+
 This project was generated using [Nx](https://nx.dev).
-
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
-
-🔎 **Smart, Fast and Extensible Build System**
 
 ## Adding capabilities to your workspace
 
