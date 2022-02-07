@@ -1,14 +1,24 @@
+import { GetStaticProps } from 'next';
 import './index.module.css';
 
-/* eslint-disable-next-line */
-export interface AboutProps {}
+export interface AboutProps {
+  name: string;
+}
 
-export function About(props: AboutProps) {
+export function About({ name }: AboutProps) {
   return (
     <div>
-      <h1>Welcome to About Kraig Walker!</h1>
+      <h1>Welcome to About {name} !</h1>
     </div>
   );
 }
+
+export const getStaticProps: GetStaticProps<AboutProps> = async () => {
+  return {
+    props: {
+      name: 'Kraig',
+    },
+  };
+};
 
 export default About;
