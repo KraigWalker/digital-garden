@@ -25,6 +25,12 @@ Some things I'm going to work on the future:
 
 This project was generated using [Nx](https://nx.dev).
 
+## Development Mode Note
+
+```
+TAILWIND_MODE=watch npx nx serve site
+```
+
 ## Generate an application
 
 Run `nx g @nrwl/react:app my-app` to generate an application.
