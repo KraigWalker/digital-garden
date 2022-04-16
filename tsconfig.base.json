@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@digital-garden/markdown": ["libs/markdown/src/index.ts"]
+      "@digital-garden/markdown": ["libs/markdown/src/index.ts"],
+      "@digital-garden/shared/mdx-elements": [
+        "libs/shared/mdx-elements/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
